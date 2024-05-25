@@ -1,5 +1,5 @@
 {
-    "name": "random-roll",
+    "name": "Random Roll",
     "short_name": "random-roll",
     "description": "Random Roll Number Generator",
     "id": "/random-roll/",
@@ -16,7 +16,13 @@
         "src": "/random-roll/android-chrome-512x512.png",
         "sizes": "512x512",
         "type": "image/png"
-      }
+      },
+      {
+        "src":"/random-roll/icon-max.png",
+        "sizes":"1024x1024",
+        "type":"image/png",
+        "purpose":"maskable"
+    }
     ],
     "theme_color": "#fceabb",
     "background_color": "#fceabb",
