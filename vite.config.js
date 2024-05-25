@@ -16,7 +16,7 @@ export default defineConfig({
         enabled: true
       },
       manifest: {
-        "name": "random-roll",
+        "name": "Random Roll",
         "short_name": "random-roll",
         "description": "Random Roll Number Generator",
         "id": "/random-roll/",

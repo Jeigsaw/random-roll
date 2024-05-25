@@ -32,10 +32,7 @@ async function main (){
   })
 
 
-  async function generateAndShow(){
-    if (!document.fullscreenElement) {
-      await document.documentElement.requestFullscreen();
-    }
+  function generateAndShow(){
     let randomNumber;
     while (true) {
       randomNumber = Math.floor(Math.random() * (lastRoll- 1));
